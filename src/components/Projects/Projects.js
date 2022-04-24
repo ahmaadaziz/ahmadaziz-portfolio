@@ -1,24 +1,22 @@
+import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
-import './Projects.css'
 
 const Projects = () => {
   if (!projects.length) return null
 
   return (
-    <section id='projects' className='section projects'>
+    <Container maxWidth='lg' sx={{ mt: '5em' }} id='projects'>
       <h2 className='section__title'>Projects</h2>
 
-      <Grid container spacing={2} sx={{ m: 0 }}>
+      <Grid container spacing={3}>
         {projects.map((project) => (
-          <Grid item md={4} key={uniqid()} sx={{ p: '32px' }}>
-            <ProjectContainer project={project} />
-          </Grid>
+          <ProjectContainer project={project} key={uniqid()} />
         ))}
       </Grid>
-    </section>
+    </Container>
   )
 }
 

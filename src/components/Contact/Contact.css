@@ -1,3 +1,7 @@
 .contact {
   flex-direction: column;
 }
+
+span {
+  margin-bottom: 2rem;
+}

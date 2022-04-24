@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'http://localhost:3000/cleanfolio',
   title: 'AZ.',
 }
 
@@ -8,11 +8,11 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Ahmad Aziz',
   role: 'Web Devloper',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: `I am a full-stack web developer with a passion for building smart and easy-to-use applications. I am a perfectionist with a sense of detail and ensure quality and high professionalism in everything I do. 
+    One word – programmer.`,
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/ahmadaziz-/',
     github: 'https://github.com/ahmaadaziz',
   },
 }
@@ -27,6 +27,7 @@ const projects = [
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'project1',
   },
   {
     name: 'Project 2',
@@ -35,6 +36,7 @@ const projects = [
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'project1',
   },
   {
     name: 'Project 3',
@@ -43,6 +45,7 @@ const projects = [
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'project1',
   },
   {
     name: 'Project 3',
@@ -51,6 +54,7 @@ const projects = [
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'project1',
   },
 ]
 
@@ -58,14 +62,13 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
   'React',
   'Redux',
   'SASS',
+  'CSS',
   'Material UI',
-  'Git',
   'CI/CD',
   'NodeJS',
   'GraphQL',
@@ -75,6 +78,9 @@ const skills = [
   'PostgreSQL',
   'MongoDB',
   'SQLite',
+  'Git',
+  'Github',
+  'Postman',
 ]
 
 const contact = {
