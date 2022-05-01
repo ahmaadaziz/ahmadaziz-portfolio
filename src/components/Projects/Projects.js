@@ -8,7 +8,7 @@ const Projects = () => {
   if (!projects.length) return null
 
   return (
-    <Container maxWidth='lg' sx={{ mt: '5em' }} id='projects'>
+    <Container maxWidth='lg' sx={{ my: '5em' }} id='projects'>
       <h2 className='section__title'>Projects</h2>
 
       <Grid container spacing={3}>

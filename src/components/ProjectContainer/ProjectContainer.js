@@ -7,7 +7,7 @@ import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <Grid item md={6} lg={4}>
+  <Grid item md={6} lg={6}>
     <Paper
       elevation={14}
       sx={{
@@ -19,7 +19,7 @@ const ProjectContainer = ({ project }) => (
       }}
     >
       <img
-        src={require(`../../images/${project.image}`)}
+        src={require(`../../images/${project.image}.png`)}
         alt={project.name}
         className='img'
       />
@@ -42,26 +42,32 @@ const ProjectContainer = ({ project }) => (
             ))}
           </ul>
         )}
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+          }}
+        >
+          {project.sourceCode && (
+            <a
+              href={project.sourceCode}
+              aria-label='source code'
+              className='link link--icon'
+            >
+              <GitHubIcon />
+            </a>
+          )}
 
-        {project.sourceCode && (
-          <a
-            href={project.sourceCode}
-            aria-label='source code'
-            className='link link--icon'
-          >
-            <GitHubIcon />
-          </a>
-        )}
-
-        {project.livePreview && (
-          <a
-            href={project.livePreview}
-            aria-label='live preview'
-            className='link link--icon'
-          >
-            <LaunchIcon />
-          </a>
-        )}
+          {project.livePreview && (
+            <a
+              href={project.livePreview}
+              aria-label='live preview'
+              className='link link--icon'
+            >
+              <LaunchIcon />
+            </a>
+          )}
+        </Box>
       </Box>
     </Paper>
   </Grid>

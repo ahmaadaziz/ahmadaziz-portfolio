@@ -16,8 +16,8 @@
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
-  margin-left: 0.5em;
+.link--icon {
+  margin: 0.5em;
 }
 
 .img {
