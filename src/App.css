@@ -15,11 +15,11 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-bg: #0b0b0bff;
+  --clr-bg-alt: rgb(13, 13, 13);
+  --clr-fg: rgb(216, 216, 216);
+  --clr-fg-alt: rgb(255, 255, 255);
+  --clr-primary: #dc5106ff;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -124,6 +124,7 @@ main {
 }
 
 .btn--plain:hover {
+  color: var(--clr-primary);
   transform: translateY(-4px);
 }
 
