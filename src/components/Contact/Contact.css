@@ -1,7 +1,27 @@
 .contact {
+  margin-top: 3.5em;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
-span {
-  margin-bottom: 2rem;
+.info {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
+.info > a {
+  display: block;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.contact-icons {
+  vertical-align: -0.18em;
+  margin-right: 0.25em;
+}
+/* span {
+  margin-bottom: 2rem;
+} */

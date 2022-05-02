@@ -1,7 +1,7 @@
 {
   "name": "ahmadaziz-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0",
+  "private": false,
   "homepage": "https://rajshekhar26.github.io/cleanfolio",
   "dependencies": {
     "@emotion/react": "^11.9.0",

@@ -60,31 +60,93 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'CSS',
-  'Material UI',
-  'CI/CD',
-  'NodeJS',
-  'GraphQL',
-  'Rest API',
-  'NexusJS',
-  'Prisma',
-  'PostgreSQL',
-  'MongoDB',
-  'SQLite',
-  'Git',
-  'Github',
-  'Postman',
+  {
+    name: 'HTML',
+    url: 'https://github.com',
+  },
+  {
+    name: 'JavaScript',
+    url: 'https://github.com',
+  },
+  {
+    name: 'TypeScript',
+    url: 'https://github.com',
+  },
+  {
+    name: 'React',
+    url: 'https://github.com',
+  },
+  {
+    name: 'Redux',
+    url: 'https://github.com',
+  },
+  {
+    name: 'SASS',
+    url: 'https://github.com',
+  },
+  {
+    name: 'CSS',
+    url: 'https://github.com',
+  },
+  {
+    name: 'Material UI',
+    url: 'https://github.com',
+  },
+  {
+    name: 'CI/CD',
+    url: 'https://github.com',
+  },
+  {
+    name: 'NodeJS',
+    url: 'https://github.com',
+  },
+  {
+    name: 'GraphQL',
+    url: 'https://github.com',
+  },
+  {
+    name: 'REST API',
+    url: 'https://github.com',
+  },
+  {
+    name: 'NexusJS',
+    url: 'https://github.com',
+  },
+  {
+    name: 'Prisma',
+    url: 'https://github.com',
+  },
+  {
+    name: 'PostgreSQL',
+    url: 'https://github.com',
+  },
+  {
+    name: 'MongoDB',
+    url: 'https://github.com',
+  },
+  {
+    name: 'SQLite',
+    url: 'https://github.com',
+  },
+  {
+    name: 'Git',
+    url: 'https://github.com',
+  },
+  {
+    name: 'Github',
+    url: 'https://github.com',
+  },
+  {
+    name: 'Postman',
+    url: 'https://github.com',
+  },
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'ahamadaziz7@gmail.com',
+  phone: '(+92) 332 4028983',
+  location: 'Lahore, Pakistan',
 }
 
 export { header, about, projects, skills, contact }

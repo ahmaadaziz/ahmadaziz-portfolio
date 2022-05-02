@@ -8,5 +8,6 @@
 }
 
 .skills__list-item {
+  border-radius: 5%;
   margin: 0.5em;
 }
